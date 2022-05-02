@@ -1,0 +1,54 @@
+# 서버 설정 #######################################################################
+server:
+  port: 8080 # 서버 접속을 위한 입구
+  servlet:
+    context-path: / # 서버 접속 주소
+    encoding:
+      charset: utf-8 # 서버에서 한글 사용
+      enabled: true
+    
+
+spring:
+  # 뷰 리졸버 설정 ###################################################################
+  mvc:
+    view: 
+      prefix: /WEB-INF/views/ # 요청 경로 지정
+      suffix: .jsp  #해당 경로에 있는 .jsp파일로 응답할 것.
+      
+  # DB 설정 ##################################################################
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver # DB 이름
+    url: jdbc:mariadb://localhost:3306/photogram?serverTimezone=Asia/Seoul # DB 경로
+    username: cos 
+    password: cos1234
+    
+  # ORM(Object-Relational Mapping) ##################################################
+  # 객체와 관계형 데이터베이스의 데이터를 자동으로 연결해준다
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: create #create, update, none
+      # hibernate는 SQL을 직접 사용하지 않고 메서드만으로 쿼리를 사용해주게 하는 라이브러리
+      # hibernate 기술을 쉽게 사용하게 해주는 라이브러리가 JPA이다.
+      # ddl-auto: create 는 서버 실행할 때마다 테이블을 삭제하고 새로 만드는 설정이다.
+      # ddl-auto: none 는 서버 실행할 때마다 아무것도 하지 않는 옵션이다.
+      # ddl-auto: update 는 필드 수정시에 필요한 옵션이다.
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+      
+  # 파일 업로드 설정 ###################################################
+  servlet:
+    multipart: 
+      enabled: true
+      max-file-size: 2MB # 파일의 사이즈 제한
+
+  # 스프링 시큐리티 설정 ##################################################
+  security:
+    user:
+      name: test
+      password: 1234   
+
+# 파일이 저장될 커스텀 경로 #################################################
+file:
+  path: C:/workspace/springbootwork/upload/
