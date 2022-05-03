@@ -1,99 +1,50 @@
 # 포토그램 - 인스타그램 클론 코딩
 
-### STS 툴 버그가 발견되었습니다.
-- 아래 주소로 가서 4.0.6 버전으로 설치해주세요. 아니면 의존성 다운로드 79프로에서 무한루프가 발생합니다.
-- https://github.com/spring-projects/sts4/wiki/Previous-Versions
+### 1. 프론트엔드 데이터 clone 하기
 
-### STS 툴에 세팅하기 - 플러그인 설정
-- https://blog.naver.com/getinthere/222322821611
+- <https://blog.naver.com/woasmsshfl/222716197297>
+- <https://github.com/codingspecialist/EaszUp-Springboot-Photogram-Start.git>
 
-### 의존성
+### 2. yml 파일 이해하기
 
-- Sring Boot DevTools
-- Lombok
-- Spring Data JPA
-- MariaDB Driver
-- Spring Security
-- Spring Web
-- oauth2-client
+- <https://blog.naver.com/woasmsshfl/222716340375>
 
-```xml
-<!-- 시큐리티 태그 라이브러리 -->
-<dependency>
-	<groupId>org.springframework.security</groupId>
-	<artifactId>spring-security-taglibs</artifactId>
-</dependency>
+### 3. Controller와 4가지의 Http 요청방법
 
-<!-- JSP 템플릿 엔진 -->
-<dependency>
-	<groupId>org.apache.tomcat</groupId>
-	<artifactId>tomcat-jasper</artifactId>
-	<version>9.0.43</version>
-</dependency>
+- <https://blog.naver.com/woasmsshfl/222716381226>
 
-<!-- JSTL -->
-<dependency>
-	<groupId>javax.servlet</groupId>
-	<artifactId>jstl</artifactId>
-</dependency>
-```
+### 4. PostMan을 이용하여 Post, Put, Delete 요청하기
 
-### 데이터베이스
+- <https://blog.naver.com/woasmsshfl/222718506802>
 
-```sql
-create user 'cos'@'%' identified by 'cos1234';
-GRANT ALL PRIVILEGES ON *.* TO 'cos'@'%';
-create database photogram;
-```
+### 5. HTTP 쿼리스트링과 주소변수매핑
 
-### yml 설정
+- <https://blog.naver.com/woasmsshfl/222718545939>
 
-```yml
-server:
-  port: 8080
-  servlet:
-    context-path: /
-    encoding:
-      charset: utf-8
-      enabled: true
-    
-spring:
-  mvc:
-    view:
-      prefix: /WEB-INF/views/
-      suffix: .jsp
-      
-  datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/cos?serverTimezone=Asia/Seoul
-    username: cos
-    password: cos1234
-    
-  jpa:
-    open-in-view: true
-    hibernate:
-      ddl-auto: update
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    show-sql: true
-      
-  servlet:
-    multipart:
-      enabled: true
-      max-file-size: 2MB
+### 6. Http Body 데이터 전송하기
 
-  security:
-    user:
-      name: test
-      password: 1234   
+- <https://blog.naver.com/woasmsshfl/222718623687>
 
-file:
-  path: C:/src/springbootwork-sts/upload/
-```
+### 7. Http 요청을 Json으로 응답하기
 
-### 태그라이브러리
+- <https://blog.naver.com/woasmsshfl/222718653102>
 
-```jsp
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
-```
+### 8. Http 요청을 File로 응답하기
+
+- <https://blog.naver.com/woasmsshfl/222718683486>
+
+### 9. JSP파일 안에서 JAVA코드 사용하기
+
+- <https://blog.naver.com/woasmsshfl/222718783560>
+
+### 9. JSP파일 안에서 JAVA코드 사용하기
+
+- <https://blog.naver.com/woasmsshfl/222718783560>
+
+### 10. HTTP 요청 재분배하기(redirection)  
+
+- <https://blog.naver.com/woasmsshfl/222719730270>
+
+### 11. 회원가입 - SecurityConfig 생성
+
+- <https://blog.naver.com/woasmsshfl/222719815459>
