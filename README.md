@@ -52,3 +52,7 @@
 ### 12. 회원가입 - Security CSRF토큰 검사 비활성화
 
 - <https://blog.naver.com/woasmsshfl/222719942498>
+
+### 13. 회원가입 - User Object 모델링하기
+
+- <https://blog.naver.com/woasmsshfl/222719993503>
