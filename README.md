@@ -48,3 +48,7 @@
 ### 11. 회원가입 - SecurityConfig 생성
 
 - <https://blog.naver.com/woasmsshfl/222719815459>
+
+### 12. 회원가입 - Security CSRF토큰 검사 비활성화
+
+- <https://blog.naver.com/woasmsshfl/222719942498>
