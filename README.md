@@ -56,3 +56,7 @@
 ### 13. 회원가입 - User Object 모델링하기
 
 - <https://blog.naver.com/woasmsshfl/222719993503>
+
+### 14. 회원가입 - User Object 모델링완료, DB에 User 데이터 INSERT 완료
+
+- <https://blog.naver.com/woasmsshfl/222720123196>
