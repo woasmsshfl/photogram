@@ -60,3 +60,11 @@
 ### 14. 회원가입 - User Object 모델링완료, DB에 User 데이터 INSERT 완료
 
 - <https://blog.naver.com/woasmsshfl/222720123196>
+
+### 15. 회원가입 - 비밀번호 해시 암호화, 권한부여
+
+- <https://blog.naver.com/woasmsshfl/222722985219>
+
+### 16. 회원가입 - AOP : 전처리, 후처리 개념
+
+- <https://blog.naver.com/woasmsshfl/222723330395>
