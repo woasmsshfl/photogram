@@ -68,3 +68,7 @@
 ### 16. 회원가입 - AOP : 전처리, 후처리 개념
 
 - <https://blog.naver.com/woasmsshfl/222723330395>
+
+### 17. 회원가입 - AOP : 전처리하기, 유효성검사(Validation  Check)
+
+- <https://blog.naver.com/woasmsshfl/222723371170>
