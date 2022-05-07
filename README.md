@@ -69,6 +69,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222723330395>
 
-### 17. 회원가입 - AOP : 전처리하기, 유효성검사(Validation  Check)
+### 17. 회원가입 - 전처리하기, 유효성검사(Validation  Check)
 
 - <https://blog.naver.com/woasmsshfl/222723371170>
+
+### 18. 회원가입 - 유효성검사 @ResponseBody 사용하기
+
+- <https://blog.naver.com/woasmsshfl/222723738748>
