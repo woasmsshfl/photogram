@@ -6,6 +6,7 @@ import java.util.Map;
 import javax.validation.Valid;
 
 import com.cos.photogramstart.domain.user.User;
+import com.cos.photogramstart.handler.ex.CustomValidationException;
 import com.cos.photogramstart.service.AuthService;
 import com.cos.photogramstart.web.dto.auth.SignupDto;
 
@@ -48,7 +49,7 @@ public class AuthController {
 
     // 회원가입 기능
     @PostMapping("/auth/signup")
-    public @ResponseBody String signup(@Valid SignupDto signupDto,
+    public String signup(@Valid SignupDto signupDto,
             BindingResult bindingResult) {
                                             
                 if (bindingResult.hasErrors()) {
@@ -57,12 +58,10 @@ public class AuthController {
                         errorMap.put(error.getField(), error.getDefaultMessage());
                         System.out.println(error.getDefaultMessage());
                     }
-                    return "오류발생";
+                    throw new CustomValidationException("유효성검사 실패함", errorMap);
                 } else {
                     User user = signupDto.toEntity();
                     User userEntity = authService.회원가입(user);
-                    System.out.println(userEntity);
-
                     return "/auth/signin"; 
                 }
     }

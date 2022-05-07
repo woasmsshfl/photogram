@@ -76,3 +76,7 @@
 ### 18. 회원가입 - 유효성검사 @ResponseBody 사용하기
 
 - <https://blog.naver.com/woasmsshfl/222723738748>
+
+### 19. 회원가입 - 글로벌예외 처리하기.
+
+- <https://blog.naver.com/woasmsshfl/222723781014>
