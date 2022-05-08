@@ -84,3 +84,7 @@
 ### 20. 회원가입 - 공통 응답 DTO 만들기
 
 - <https://blog.naver.com/woasmsshfl/222723781014>
+
+### 21. 회원가입 - 공통 응답 Script 만들기
+
+- <https://blog.naver.com/woasmsshfl/222725325875>
