@@ -80,3 +80,7 @@
 ### 19. 회원가입 - 글로벌예외 처리하기.
 
 - <https://blog.naver.com/woasmsshfl/222723781014>
+
+### 20. 회원가입 - 공통 응답 DTO 만들기
+
+- <https://blog.naver.com/woasmsshfl/222723781014>
