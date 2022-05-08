@@ -88,3 +88,7 @@
 ### 21. 회원가입 - 공통 응답 Script 만들기
 
 - <https://blog.naver.com/woasmsshfl/222725325875>
+
+### 22. 로그인 - UserDetailsService 이해하기
+
+- <https://blog.naver.com/woasmsshfl/222725358753>

@@ -30,7 +30,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll() // 모두 허용한다.
                 .and() // 그리고
                 .formLogin() // 로그인(인증)이 필요한 요청이 들어오면
-                .loginPage("/auth/signin") // 로그인페이지 auth/signin 으로 이동시키고
+                .loginPage("/auth/signin") // 로그인페이지 auth/signin 으로 이동시키고(GET요청)
+                .loginProcessingUrl("/auth/signin") // auth/signin 이라는 POST요청을 실행시킨다.
                 .defaultSuccessUrl("/"); // 인증이 정삭적으로 완료되면 / 로 이동한다.
     }   
 }
