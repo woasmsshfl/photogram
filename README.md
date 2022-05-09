@@ -1,5 +1,9 @@
 # 포토그램 - 인스타그램 클론 코딩
 
+<details>
+<summary>프로젝트 순서와 설명 보기</summary>
+<div markdown="1">
+
 ### 1. 프론트엔드 데이터 clone 하기
 
 - <https://blog.naver.com/woasmsshfl/222716197297>
@@ -77,7 +81,7 @@
 
 - <https://blog.naver.com/woasmsshfl/222723738748>
 
-### 19. 회원가입 - 글로벌예외 처리하기.
+### 19. 회원가입 - 글로벌예외 처리하기
 
 - <https://blog.naver.com/woasmsshfl/222723781014>
 
@@ -100,3 +104,12 @@
 ### 24. 로그인 - view 연결하기
 
 - <https://blog.naver.com/woasmsshfl/222725985331>
+
+### 25. 로그인 - Session 정보 확인하기
+
+- <https://blog.naver.com/woasmsshfl/222726110894>
+
+
+</div>
+</details>
+
