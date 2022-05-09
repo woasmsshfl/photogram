@@ -14,6 +14,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Builder // Builder 패턴으로 데이터를 담을 수 있게 해주는 어노테이션
 @AllArgsConstructor // 모든 생성자를 자동으로 만들어주는 어노테이션
 @NoArgsConstructor // 빈 생성자를 자동으로 만들어주는 어노테이션

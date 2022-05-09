@@ -2,6 +2,12 @@
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
         <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 
+            <!-- 인증된 정보(session)에 접근하는 방법 -->
+            <!-- 시큐리티 태그 라이브러리로 UserDetails에 접근하게 해준다.-->
+            <sec:authorize access="isAuthenticated()">
+                <sec:authentication property="principal" var="principal" />
+            </sec:authorize>
+
             <!DOCTYPE html>
             <html lang="en">
 
