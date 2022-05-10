@@ -1,13 +1,30 @@
 # 포토그램 - 인스타그램 클론 코딩
 
+***
+
 <details>
 <summary>프로젝트 순서와 설명 보기</summary>
 <div markdown="1">
+
+***
+
+<details>
+<summary>1 . 프로젝트 초기 세팅</summary>
+<div markdown="2">
 
 ### 1. 프론트엔드 데이터 clone 하기
 
 - <https://blog.naver.com/woasmsshfl/222716197297>
 - <https://github.com/codingspecialist/EaszUp-Springboot-Photogram-Start.git>
+
+</div>
+</details>
+  
+***
+
+<details>
+<summary>2. 기초 개념 설명</summary>
+<div markdown="3">
 
 ### 2. yml 파일 이해하기
 
@@ -48,6 +65,15 @@
 ### 10. HTTP 요청 재분배하기(redirection)  
 
 - <https://blog.naver.com/woasmsshfl/222719730270>
+
+</div>
+</details>
+  
+***
+
+<details>
+<summary>3. 회원가입 기능</summary>
+<div markdown="4">
 
 ### 11. 회원가입 - SecurityConfig 생성
 
@@ -93,6 +119,15 @@
 
 - <https://blog.naver.com/woasmsshfl/222725325875>
 
+</div>
+</details>
+  
+***
+
+<details>
+<summary>4. 로그인 기능</summary>
+<div markdown="5">
+
 ### 22. 로그인 - UserDetailsService 이해하기
 
 - <https://blog.naver.com/woasmsshfl/222725358753>
@@ -108,6 +143,15 @@
 ### 25. 로그인 - Session 정보 확인하기
 
 - <https://blog.naver.com/woasmsshfl/222726110894>
+
+</div>
+</details>
+  
+***
+
+<details>
+<summary>5. 회원정보수정 기능</summary>
+<div markdown="6">
 
 ### 26. 회원정보수정 - 시큐리티 태그 라이브러리
 
@@ -125,7 +169,14 @@
 
 - <https://blog.naver.com/woasmsshfl/222727621541>
 
+### 30. 회원정보수정 - 글로벌 예외 처리하기 ( Optional 활용 )
+
+- <https://blog.naver.com/woasmsshfl/222727621541>
 
 </div>
 </details>
+  
+***
 
+</div>
+</details>
