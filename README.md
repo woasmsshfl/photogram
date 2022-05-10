@@ -117,6 +117,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222727511829>
 
+### 28. 회원정보수정 - 회원정보수정 로직 완료
+
+- <https://blog.naver.com/woasmsshfl/222727621541>
+
 
 </div>
 </details>
