@@ -113,6 +113,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222726110894>
 
+### 27. 회원정보수정 - JQuery, AJAX 사용하기
+
+- <https://blog.naver.com/woasmsshfl/222727511829>
+
 
 </div>
 </details>
