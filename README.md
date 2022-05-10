@@ -195,6 +195,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222728029519>
 
+### 34. 구독하기 - 글로벌 예외 처리하기
+
+- <https://blog.naver.com/woasmsshfl/222728029519>
+
 </div>
 </details>
   

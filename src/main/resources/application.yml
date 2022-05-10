@@ -32,7 +32,7 @@ spring:
   jpa:
     open-in-view: true
     hibernate:
-      ddl-auto: create #create, update, none
+      ddl-auto: update #create, update, none
       # hibernate는 SQL을 직접 사용하지 않고 메서드만으로 쿼리를 사용해주게 하는 라이브러리
       # hibernate 기술을 쉽게 사용하게 해주는 라이브러리가 JPA이다.
       # ddl-auto: create 는 서버 실행할 때마다 테이블을 삭제하고 새로 만드는 설정이다.
