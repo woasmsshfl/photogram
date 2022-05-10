@@ -171,7 +171,20 @@
 
 ### 30. 회원정보수정 - 글로벌 예외 처리하기 ( Optional 활용 )
 
-- <https://blog.naver.com/woasmsshfl/222727621541>
+- <https://blog.naver.com/woasmsshfl/222727738922>
+
+<details>
+<summary>6. 구독하기 기능</summary>
+<div markdown="7">
+
+### 31. 구독하기 - 연관관계 개념잡기
+
+- <https://blog.naver.com/woasmsshfl/222727975400>
+
+</div>
+</details>
+
+***
 
 </div>
 </details>
