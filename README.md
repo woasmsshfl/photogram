@@ -181,6 +181,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222727975400>
 
+### 32. 구독하기 - 구독하기 모델링 하기
+
+- <https://blog.naver.com/woasmsshfl/222727998436>
+
 </div>
 </details>
 
