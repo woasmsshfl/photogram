@@ -121,6 +121,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222727621541>
 
+### 29. 회원정보수정 - 유효성 검사하기 ( ResponseEntity 활용 )
+
+- <https://blog.naver.com/woasmsshfl/222727621541>
+
 
 </div>
 </details>
