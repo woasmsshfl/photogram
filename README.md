@@ -173,6 +173,12 @@
 
 - <https://blog.naver.com/woasmsshfl/222727738922>
 
+
+</div>
+</details>
+
+***
+
 <details>
 <summary>6. 구독하기 기능</summary>
 <div markdown="7">
@@ -185,10 +191,9 @@
 
 - <https://blog.naver.com/woasmsshfl/222727998436>
 
-</div>
-</details>
+### 33. 구독하기 - 구독하기, 구독취소하기 API 생성
 
-***
+- <https://blog.naver.com/woasmsshfl/222728029519>
 
 </div>
 </details>
