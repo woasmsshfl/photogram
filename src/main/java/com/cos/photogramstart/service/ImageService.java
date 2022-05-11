@@ -1,0 +1,46 @@
+package com.cos.photogramstart.service;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.UUID;
+
+import com.cos.photogramstart.config.auth.PrincipalDetails;
+import com.cos.photogramstart.domain.image.ImageRepository;
+import com.cos.photogramstart.web.dto.image.ImageUploadDto;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import lombok.RequiredArgsConstructor;
+
+@RequiredArgsConstructor
+@Service
+public class ImageService {
+
+    // 6. 이미지가 저장되는 경로 호출하기
+    @Value("${file.path}")
+    private String uploadFolder;
+    
+    private final ImageRepository imageRepository;
+
+    public void 사진업로드(ImageUploadDto imageUploadDto,
+            PrincipalDetails principalDetails) {
+        // 2. UUID 객체를 생성한다.
+        UUID uuid = UUID.randomUUID();
+        // 1. 업로드 되는 원본 파일명을 imageFileName라고 지정한다.
+        // 3. UUID를 더한 값으로 지정한다.
+        String imageFileName = uuid + "_" + imageUploadDto.getFile().getOriginalFilename();
+        // 4. UUID가 적용된 파일명 확인하기
+        System.out.println(imageFileName);
+        // 5. image 저장 경로 지정하기
+        Path imageFilePath = Paths.get(uploadFolder + imageFileName);
+        
+        // 7. 파일을 업로드하기
+        try {
+            Files.write(imageFilePath, imageUploadDto.getFile().getBytes());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

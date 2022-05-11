@@ -212,6 +212,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222728662604>
 
+### 36. 프로필페이지 - image를 서버에 업로드하기 (UUID적용)
+
+- <https://blog.naver.com/woasmsshfl/222728992011>
+
 
 
 </div>
