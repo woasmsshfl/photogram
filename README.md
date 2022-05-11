@@ -195,9 +195,24 @@
 
 - <https://blog.naver.com/woasmsshfl/222728029519>
 
-### 34. 구독하기 - 글로벌 예외 처리하기
+### 34. 구독하기 - 글로벌 예외 처리하기, API 주소 시큐리티 설정하기
 
-- <https://blog.naver.com/woasmsshfl/222728029519>
+- <https://blog.naver.com/woasmsshfl/222728058840>
+
+</div>
+</details>
+
+***
+
+<details>
+<summary>7. 프로필 페이지 기능</summary>
+<div markdown="8">
+
+### 35. 프로필페이지 - image 모델링하기
+
+- <https://blog.naver.com/woasmsshfl/222728662604>
+
+
 
 </div>
 </details>
