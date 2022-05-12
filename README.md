@@ -236,6 +236,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222730237535>
 
+### 42. 프로필페이지 - 에러 해결하기 ( Open In View 개념 잡기 )
+
+- <https://blog.naver.com/woasmsshfl/222730316667>
+
 
 </div>
 </details>

@@ -18,6 +18,7 @@ public class UserService {
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
+    @Transactional(readOnly = true)
     public User 회원프로필(Integer userId) { // 해당 페이지 주인의 ID를 받아준다.
         // SELECT * FROM image WHERE userId = :userId;
         User userEntity = userRepository.findById(userId).orElseThrow(() -> {

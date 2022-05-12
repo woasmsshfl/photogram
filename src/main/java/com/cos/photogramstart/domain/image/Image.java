@@ -15,7 +15,9 @@ import com.cos.photogramstart.domain.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Builder
 @AllArgsConstructor
@@ -51,4 +53,10 @@ public class Image {
     public void createDate() {
         this.createDate = LocalDateTime.now();
     }
+    // 오브젝트를 sysout할 때, 무한참조가 발생하는 User오브젝트를 삭제한 toString
+    // @Override
+    // public String toString() {
+    //     return "Image [caption=" + caption + ", createDate=" + createDate + ", id=" + id + ", postImageUrl="
+    //             + postImageUrl + "]";
+    // }
 }

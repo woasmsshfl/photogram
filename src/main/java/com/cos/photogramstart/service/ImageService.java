@@ -12,6 +12,7 @@ import com.cos.photogramstart.web.dto.image.ImageUploadDto;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import lombok.RequiredArgsConstructor;
 
@@ -25,6 +26,7 @@ public class ImageService {
     
     private final ImageRepository imageRepository;
 
+    @Transactional
     public void 사진업로드(ImageUploadDto imageUploadDto,
             PrincipalDetails principalDetails) {
         // 2. UUID 객체를 생성한다.
@@ -33,7 +35,7 @@ public class ImageService {
         // 3. UUID를 더한 값으로 지정한다.
         String imageFileName = uuid + "_" + imageUploadDto.getFile().getOriginalFilename();
         // 4. UUID가 적용된 파일명 확인하기
-        System.out.println(imageFileName);
+        // System.out.println(imageFileName);
         // 5. image 저장 경로 지정하기
         Path imageFilePath = Paths.get(uploadFolder + imageFileName);
         
@@ -46,9 +48,7 @@ public class ImageService {
 
         // 8. image 파일경로를 DB에 INSERT하기
         Image image = imageUploadDto.toEntity(imageFileName, principalDetails.getUser());
-        Image imageEntity = imageRepository.save(image);
-
-        System.out.println("imageEntity : "+imageEntity);
-
+        imageRepository.save(image);
+        // System.out.println("imageEntity : "+imageEntity);
     }
 }

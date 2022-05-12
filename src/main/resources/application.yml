@@ -30,7 +30,10 @@ spring:
   # ORM(Object-Relational Mapping) ##################################################
   # 객체와 관계형 데이터베이스의 데이터를 자동으로 연결해준다
   jpa:
-    open-in-view: true
+    open-in-view: true # true, false
+    # view를 오픈 할 것인가?
+    # false : 응답라인에서 Service가 비지니스 로직을 처리하고 Session이 종료된다.
+    # true : 응답라인에서 Controller가 응답을 처리하고 Session이 종료된다.
     hibernate:
       ddl-auto: update #create, update, none
       # hibernate는 SQL을 직접 사용하지 않고 메서드만으로 쿼리를 사용해주게 하는 라이브러리
