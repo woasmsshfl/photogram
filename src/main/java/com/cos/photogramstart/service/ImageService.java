@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 import java.util.UUID;
 
 import com.cos.photogramstart.config.auth.PrincipalDetails;
+import com.cos.photogramstart.domain.image.Image;
 import com.cos.photogramstart.domain.image.ImageRepository;
 import com.cos.photogramstart.web.dto.image.ImageUploadDto;
 
@@ -42,5 +43,12 @@ public class ImageService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        // 8. image 파일경로를 DB에 INSERT하기
+        Image image = imageUploadDto.toEntity(imageFileName, principalDetails.getUser());
+        Image imageEntity = imageRepository.save(image);
+
+        System.out.println("imageEntity : "+imageEntity);
+
     }
 }

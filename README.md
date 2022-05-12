@@ -216,6 +216,13 @@
 
 - <https://blog.naver.com/woasmsshfl/222728992011>
 
+### 37. 프로필페이지 - image 업로드 경로를 프로젝트 외부에 두는 이유
+
+- <https://blog.naver.com/woasmsshfl/222729967597>
+
+### 38. 프로필페이지 - image 파일경로를 DB에 INSERT하기
+
+- <https://blog.naver.com/woasmsshfl/222729999630>
 
 
 </div>
