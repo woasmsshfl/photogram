@@ -28,7 +28,7 @@ public class UserController {
     @GetMapping("/user/{id}/update")
     public String update(@PathVariable Integer id,
             @AuthenticationPrincipal PrincipalDetails principalDetails) {
-        System.out.println("세션 정보 확인 : " + principalDetails.getUser());
+        // System.out.println("세션 정보 확인 : " + principalDetails.getUser());
         // Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         // PrincipalDetails mPrincipalDetails = (PrincipalDetails) auth.getPrincipal();
         // System.out.println("세션 정보 확인 2 : " + mPrincipalDetails.getUser());

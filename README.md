@@ -240,6 +240,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222730316667>
 
+### 43. 프로필페이지 - 회원정보 수정 오류(무한참조) 해결하기
+
+- <https://blog.naver.com/woasmsshfl/222730713445>
+
 
 </div>
 </details>
