@@ -232,6 +232,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222730175469>
 
+### 41. 프로필페이지 - image 프로필페이지에서 View 랜더링하기
+
+- <https://blog.naver.com/woasmsshfl/222730237535>
+
 
 </div>
 </details>

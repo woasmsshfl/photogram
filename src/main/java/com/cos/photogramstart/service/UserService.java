@@ -23,8 +23,6 @@ public class UserService {
         User userEntity = userRepository.findById(userId).orElseThrow(() -> {
             throw new CustomException("존재하지 않는 유저의 페이지입니다.");
         });
-        System.out.println("=============================");
-        userEntity.getImages().get(0);
         return userEntity;
     }
 
