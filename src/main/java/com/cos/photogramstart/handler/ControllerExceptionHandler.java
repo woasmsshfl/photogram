@@ -1,6 +1,7 @@
 package com.cos.photogramstart.handler;
 
 import com.cos.photogramstart.handler.ex.CustomApiException;
+import com.cos.photogramstart.handler.ex.CustomException;
 import com.cos.photogramstart.handler.ex.CustomValidationApiException;
 import com.cos.photogramstart.handler.ex.CustomValidationException;
 import com.cos.photogramstart.util.Script;
@@ -28,6 +29,12 @@ public class ControllerExceptionHandler {
         } else {
             return Script.back(e.getErrorMap().toString());
         }
+    }
+
+    // profile 페이지에서 사용될 핸들러
+    @ExceptionHandler(CustomException.class)
+    public String exception(CustomException e) {
+        return Script.back(e.getMessage());
     }
 
     // CMRespDto 오브젝트 + HttpStatus 상태코드를 응답하는 핸들러

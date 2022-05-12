@@ -228,6 +228,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222730059532>
 
+### 40. 프로필페이지 - 양방향 매핑 이해하기
+
+- <https://blog.naver.com/woasmsshfl/222730175469>
+
 
 </div>
 </details>
