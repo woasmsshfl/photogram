@@ -224,6 +224,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222729999630>
 
+### 39. 프로필페이지 - image upload 로직 유효성 검사하기
+
+- <https://blog.naver.com/woasmsshfl/222730059532>
+
 
 </div>
 </details>
