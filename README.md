@@ -248,6 +248,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222731251760>
 
+### 45. 프로필페이지 - DTO로 프로필페이지 완성하기
+
+- <https://blog.naver.com/woasmsshfl/222731480748>
+
 
 </div>
 </details>
