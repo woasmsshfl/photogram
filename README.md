@@ -258,5 +258,18 @@
   
 ***
 
+<details>
+<summary>8. 구독정보 VIEW 기능</summary>
+<div markdown="8">
+
+### 46. 구독정보 VIEW  - 구독정보 완성하기
+
+- <https://blog.naver.com/woasmsshfl/222731603326>
+
+</div>
+</details>
+
+***
+
 </div>
 </details>

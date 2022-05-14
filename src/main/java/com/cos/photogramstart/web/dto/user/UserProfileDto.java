@@ -17,5 +17,9 @@ public class UserProfileDto {
 
     private Integer imageCount; // 업로드된 페이지 개수
 
+    private boolean subscribeState; // 구독상태. 했으면 true 안했으면 false
+
+    private Integer subscribeCount; // 구독자 수 카운팅
+
     private User user; // 접속한 유저정보를 받을 유저 오브젝트
 }
