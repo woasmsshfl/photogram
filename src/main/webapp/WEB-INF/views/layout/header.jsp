@@ -54,7 +54,7 @@
                                     </a>
                                 </li>
                                 <li class="navi-item">
-                                    <a href="/user/1">
+                                    <a href="/user/${principal.user.id}">
                                         <i class="far fa-user"></i>
                                     </a>
                                 </li>

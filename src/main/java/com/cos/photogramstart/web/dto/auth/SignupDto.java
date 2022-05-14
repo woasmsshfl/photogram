@@ -30,6 +30,6 @@ public class SignupDto {
                 .password(password)
                 .email(email)
                 .name(name)
-                .build();
+                .build(); 
     }
 }

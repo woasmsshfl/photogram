@@ -266,6 +266,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222731603326>
 
+### 47. 구독정보 VIEW  - 구독, 구독취소 버튼 이벤트 구현하기
+
+- <https://blog.naver.com/woasmsshfl/222732503748>
+
 </div>
 </details>
 
