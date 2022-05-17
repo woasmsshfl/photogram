@@ -260,7 +260,7 @@
 
 <details>
 <summary>8. 구독정보 VIEW 기능</summary>
-<div markdown="8">
+<div markdown="9">
 
 ### 46. 구독정보 VIEW  - 구독정보 완성하기
 
@@ -281,6 +281,19 @@
 ### 50. 구독정보 VIEW - 구독정보 모달에서 구독,구독취소 구현하기
 
 - <https://blog.naver.com/woasmsshfl/222736113857>
+
+</div>
+</details>
+
+***
+
+<details>
+<summary>9. 스토리 페이지 기능</summary>
+<div markdown="10">
+
+### 51. 스토리 페이지 - 이미지 리스트 API 만들기
+
+- <https://blog.naver.com/woasmsshfl/222736171533>
 
 </div>
 </details>

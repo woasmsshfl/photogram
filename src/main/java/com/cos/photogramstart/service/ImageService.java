@@ -3,6 +3,7 @@ package com.cos.photogramstart.service;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 import java.util.UUID;
 
 import com.cos.photogramstart.config.auth.PrincipalDetails;
@@ -25,6 +26,12 @@ public class ImageService {
     private String uploadFolder;
     
     private final ImageRepository imageRepository;
+
+    @Transactional(readOnly = true)
+    public List<Image> 이미지스토리(Integer principalId) {
+        List<Image> images = imageRepository.mStory(principalId);
+        return images;
+    }
 
     @Transactional
     public void 사진업로드(ImageUploadDto imageUploadDto,

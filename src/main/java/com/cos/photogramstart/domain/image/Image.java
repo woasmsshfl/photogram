@@ -11,6 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.PrePersist;
 
 import com.cos.photogramstart.domain.user.User;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -37,6 +38,7 @@ public class Image {
     private String postImageUrl;
 
     // image를 누가 올렸는지 알기 위해 받은 유저오브젝트
+    @JsonIgnoreProperties({"images"})
     @JoinColumn(name = "userId")
     @ManyToOne
     private User user;
