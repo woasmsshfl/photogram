@@ -274,6 +274,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222735991251>
 
+### 49. 구독정보 VIEW - 모달 정보 View 랜더링하기
+
+- <https://blog.naver.com/woasmsshfl/222736101563>
+
 </div>
 </details>
 
