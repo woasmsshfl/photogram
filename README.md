@@ -278,6 +278,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222736101563>
 
+### 50. 구독정보 VIEW - 구독정보 모달에서 구독,구독취소 구현하기
+
+- <https://blog.naver.com/woasmsshfl/222736113857>
+
 </div>
 </details>
 
