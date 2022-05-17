@@ -295,6 +295,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222736171533>
 
+### 52. 스토리 페이지 - 이미지 리스트 View 랜더링하기
+
+- <https://blog.naver.com/woasmsshfl/222736194515>
+
 </div>
 </details>
 
