@@ -52,7 +52,7 @@ public class User {
 
     private String gender; // 성별
 
-    private String prifileImageUrl; // 프로필 사진
+    private String profileImageUrl; // 프로필 사진
 
     private String role; // 권한 
 

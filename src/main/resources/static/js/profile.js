@@ -44,6 +44,7 @@ function toggleSubscribe(toUserId, obj) {
 // (2) 구독자 정보  모달 보기
 function subscribeInfoModalOpen() {
     $(".modal-subscribe").css("display", "flex");
+
 }
 
 function getSubscribeModalItem() {

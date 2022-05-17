@@ -270,6 +270,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222732503748>
 
+### 48. 구독정보 VIEW - 모달 정보를 위한 쿼리짜기, DTO매핑하기, API 컨트롤러 생성하기
+
+- <https://blog.naver.com/woasmsshfl/222735991251>
+
 </div>
 </details>
 
