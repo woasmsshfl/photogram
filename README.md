@@ -324,6 +324,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222741861798>
 
+### 57. 좋아요 - 좋아요 View 랜더링, 무한참조 해결
+
+- <https://blog.naver.com/woasmsshfl/222741938270>
+
 </div>
 </details>
 

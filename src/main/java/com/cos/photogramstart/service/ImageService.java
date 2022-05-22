@@ -32,6 +32,16 @@ public class ImageService {
     @Transactional(readOnly = true)
     public List<Image> 이미지스토리(Integer principalId, Pageable pageable) {
         List<Image> images = imageRepository.mStory(principalId, pageable);
+
+        // // images의 좋아요 상태 담기(이중for문)
+        images.forEach((image)->{
+            image.getLikes().forEach((like) -> {
+                if (like.getUser().getId() == principalId) {
+                    image.setLikeState(true);
+                }
+            });
+        });
+
         return images;
     }
 
