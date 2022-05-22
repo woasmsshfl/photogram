@@ -336,6 +336,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222741959142>
 
+### 60. 좋아요 - 무한참조 해결
+
+- <https://blog.naver.com/woasmsshfl/222741980132>
+
 </div>
 </details>
 

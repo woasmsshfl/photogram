@@ -14,6 +14,7 @@ import javax.persistence.UniqueConstraint;
 
 import com.cos.photogramstart.domain.image.Image;
 import com.cos.photogramstart.domain.user.User;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -44,6 +45,7 @@ public class Likes {
 
     @ManyToOne
     @JoinColumn(name = "userId")
+    @JsonIgnoreProperties({"images"})
     private User user; // 좋아요를 누가 한 것인지.
 
     private LocalDateTime createDate; // 데이터가 입력된 시간.
