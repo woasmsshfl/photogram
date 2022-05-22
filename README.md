@@ -320,6 +320,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222741678593>
 
+### 56. 좋아요 - 좋아요, 좋아요 취소 API 생성하기
+
+- <https://blog.naver.com/woasmsshfl/222741861798>
+
 </div>
 </details>
 
