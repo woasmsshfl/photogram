@@ -34,7 +34,10 @@ public class ImageService {
         List<Image> images = imageRepository.mStory(principalId, pageable);
 
         // // images의 좋아요 상태 담기(이중for문)
-        images.forEach((image)->{
+        images.forEach((image) -> {
+            // 좋아요 카운트 담기
+            image.setLikeCount(image.getLikes().size());
+
             image.getLikes().forEach((like) -> {
                 if (like.getUser().getId() == principalId) {
                     image.setLikeState(true);
