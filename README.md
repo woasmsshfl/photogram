@@ -312,5 +312,18 @@
 
 ***
 
+<details>
+<summary>10. 좋아요 기능</summary>
+<div markdown="11">
+
+### 55. 좋아요 - Likes 모델링하기
+
+- <https://blog.naver.com/woasmsshfl/222741678593>
+
+</div>
+</details>
+
+***
+
 </div>
 </details>
