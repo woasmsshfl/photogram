@@ -353,6 +353,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222743703107>
 
+### 62. 기타 - 프로필페이지에서 이미지 좋아요 개수 랜더링
+
+- <https://blog.naver.com/woasmsshfl/222743725903>
+
 </div>
 </details>
 
