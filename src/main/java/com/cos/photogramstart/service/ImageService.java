@@ -30,6 +30,11 @@ public class ImageService {
     private final ImageRepository imageRepository;
 
     @Transactional(readOnly = true)
+    public List<Image> 인기사진() {
+        return imageRepository.mPopular();
+    }
+
+    @Transactional(readOnly = true)
     public List<Image> 이미지스토리(Integer principalId, Pageable pageable) {
         List<Image> images = imageRepository.mStory(principalId, pageable);
 
