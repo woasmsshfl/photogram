@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import lombok.RequiredArgsConstructor;
 
@@ -34,6 +35,18 @@ public class UserApiController {
 
     private final UserService userService;
     private final SubscribeService subscribeService;
+
+    @PutMapping("/api/user/{principalId}/profileImageUrl")
+    public ResponseEntity<?> profileImageUrlUpdate(
+                    @PathVariable Integer principalId,
+                    MultipartFile profileImageFile,
+                    @AuthenticationPrincipal PrincipalDetails principalDetails) {
+        User userEntity = userService.회원프로필사진변경(principalId, profileImageFile);
+        principalDetails.setUser(userEntity);
+        return new ResponseEntity<>(
+            new CMRespDto<>(1, "프로필사진 변경성공", null), HttpStatus.OK
+        );
+    }
 
     @GetMapping("/api/user/{pageUserId}/subscribe")
     public ResponseEntity<?> subscribeList(@PathVariable Integer pageUserId,

@@ -357,6 +357,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222743725903>
 
+### 63. 기타 - 유저 프로필사진 변경하기
+
+- <https://blog.naver.com/woasmsshfl/222743776332>
+
 </div>
 </details>
 
