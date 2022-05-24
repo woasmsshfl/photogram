@@ -366,5 +366,19 @@
 
 ***
 
+<details>
+<summary>12. 댓글 기능</summary>
+<div markdown="13">
+
+### 64. 댓글 - Comment 모델링하기
+
+- <https://blog.naver.com/woasmsshfl/222744478863>
+
+
+</div>
+</details>
+
+***
+
 </div>
 </details>
