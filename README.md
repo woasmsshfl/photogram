@@ -378,6 +378,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222744681557>
 
+### 66. 댓글 - 댓글쓰기 DTO 생성 및 DB에 INSERT하기
+
+- <https://blog.naver.com/woasmsshfl/222744807909>
+
 
 </div>
 </details>

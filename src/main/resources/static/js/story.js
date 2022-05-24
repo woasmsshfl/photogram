@@ -81,7 +81,7 @@ function getStoryItem(image) {
 
 		<div class="sl__item__input">
 			<input type="text" placeholder="댓글 달기..." id="storyCommentInput-${image.id}" />
-			<button type="button" onClick="addComment(${image.id}})">게시</button>
+			<button type="button" onClick="addComment(${image.id})">게시</button>
 		</div>
 
 	</div>
@@ -147,6 +147,8 @@ function toggleLike(imageId) {
 // (4) 댓글쓰기
 function addComment(imageId) {
 
+    console.log(imageId)
+
     let commentInput = $(`#storyCommentInput-${imageId}`);
     let commentList = $(`#storyCommentList-${imageId}`);
 
@@ -154,6 +156,8 @@ function addComment(imageId) {
         imageId: imageId,
         content: commentInput.val()
     }
+
+    console.log(data.content);
 
     if (data.content === "") {
         alert("댓글을 작성해주세요!");
@@ -164,7 +168,7 @@ function addComment(imageId) {
         type: "post",
         url: "/api/comment",
         data: JSON.stringify(data),
-        contentType: "applcation/json: charset=utf-8",
+        contentType: "application/json; charset=utf-8",
         dataType: "json"
     }).done(res => {
         console.log("댓글쓰기 성공", res);
