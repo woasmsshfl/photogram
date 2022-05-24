@@ -374,6 +374,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222744478863>
 
+### 65. 댓글 - Comment API 생성하기, AJAX 작성하기
+
+- <https://blog.naver.com/woasmsshfl/222744681557>
+
 
 </div>
 </details>
