@@ -39,8 +39,13 @@ public class CommentService {
     }
 
     @Transactional
-    public void 댓글삭제() {
-
+    public void 댓글삭제(Integer id) {
+        try {
+            System.out.println("commentId : " + id);
+            commentRepository.deleteById(id);
+        } catch (Exception e) {
+            throw new CustomApiException(e.getMessage());
+        }
     }
     
 }

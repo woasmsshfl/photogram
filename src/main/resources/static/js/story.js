@@ -6,7 +6,10 @@
 	(4) 댓글쓰기
 	(5) 댓글삭제
  */
-// 스크롤 페이징을 위한 변수생성
+// 현재 로그인한 유저의 ID
+let principalId = $("#principalId").val();
+console.log("로그인한 유저 : ", principalId)
+    // 스크롤 페이징을 위한 변수생성
 let page = 0;
 
 // (1) 스토리 로드하기
@@ -70,11 +73,15 @@ function getStoryItem(image) {
         item += `<div class="sl__item__contents__comment" id="storyCommentItem-${comment.id}">
 				<p>
 					<b>${comment.user.username} :</b> ${comment.content}
-				</p>
+				</p>`;
 
-				<button>
-					<i class="fas fa-times"></i>
-				</button>
+        if (principalId == comment.user.id) {
+            item +=
+                `<button onclick="deleteComment(${comment.id})">
+				    <i class="fas fa-times"></i>
+                </button>`;
+        }
+        item += `
 			</div>`;
     });
 
@@ -184,9 +191,11 @@ function addComment(imageId) {
 			        <b>${comment.user.username} :</b>
 			        ${comment.content}
 			    </p>
-			    <button><i class="fas fa-times"></i></button>
+			    <button onclick="deleteComment(${comment.id})">
+                <i class="fas fa-times"></i>
+                </button>
 			</div>
-	`;
+    	`;
         commentList.prepend(content);
 
     }).fail(error => {
@@ -197,6 +206,15 @@ function addComment(imageId) {
 }
 
 // (5) 댓글 삭제
-function deleteComment() {
-
+function deleteComment(commentId) {
+    $.ajax({
+        type: "delete",
+        url: `/api/comment/${commentId}`,
+        dataType: "json"
+    }).done(res => {
+        console.log("댓글삭제 성공", res);
+        $(`#storyCommentItem-${commentId}`).remove();
+    }).fail(error => {
+        console.log("댓글삭제 실패", error);
+    });
 }
