@@ -394,6 +394,18 @@
 
 - <https://blog.naver.com/woasmsshfl/222745727129>
 
+</div>
+</details>
+
+***
+
+<details>
+<summary>13. 유효성 검사</summary>
+<div markdown="14">
+
+### 70. 유효성 검사 자동화 - AOP 처리하기 1
+
+- <https://blog.naver.com/woasmsshfl/222745926023>
 
 </div>
 </details>
