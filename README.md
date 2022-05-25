@@ -390,6 +390,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222744867814>
 
+### 69. 댓글 - 유효성 검사하기
+
+- <https://blog.naver.com/woasmsshfl/222745727129>
+
 
 </div>
 </details>
