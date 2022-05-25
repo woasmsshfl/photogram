@@ -50,20 +50,10 @@ public class AuthController {
     // 회원가입 기능
     @PostMapping("/auth/signup")
     public String signup(@Valid SignupDto signupDto,
-            BindingResult bindingResult) {
-                                            
-                if (bindingResult.hasErrors()) {
-                    Map<String, String> errorMap = new HashMap<>();
-                    for (FieldError error : bindingResult.getFieldErrors()) {
-                        errorMap.put(error.getField(), error.getDefaultMessage());
-                        System.out.println(error.getDefaultMessage());
-                    }
-                    throw new CustomValidationException("유효성검사 실패함", errorMap);
-                } else {
-                    User user = signupDto.toEntity();
-                    User userEntity = authService.회원가입(user);
-                    return "/auth/signin"; 
-                }
+        BindingResult bindingResult){
+        User user = signupDto.toEntity();
+        authService.회원가입(user);
+        return "/auth/signin"; 
     }
 
 }

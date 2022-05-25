@@ -400,12 +400,16 @@
 ***
 
 <details>
-<summary>13. 유효성 검사</summary>
+<summary>13. AOP - 유효성 검사 자동화</summary>
 <div markdown="14">
 
 ### 70. 유효성 검사 자동화 - AOP 처리하기 1
 
 - <https://blog.naver.com/woasmsshfl/222745926023>
+
+### 71. 유효성 검사 자동화 - AOP 처리하기 2
+
+- <https://blog.naver.com/woasmsshfl/222745930597>
 
 </div>
 </details>

@@ -169,10 +169,10 @@ function addComment(imageId) {
 
     console.log(data.content);
 
-    // if (data.content === "") {
-    //     alert("댓글을 작성해주세요!");
-    //     return;
-    // }
+    if (data.content === "") {
+        alert("댓글을 작성해주세요!");
+        return;
+    }
 
     $.ajax({
         type: "post",
