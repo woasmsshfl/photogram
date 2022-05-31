@@ -424,6 +424,10 @@
 
 - <https://blog.naver.com/woasmsshfl/222753512460>
 
+### 73. OAuth2 - 페이스북으로부터 회원정보 받기
+
+- <https://blog.naver.com/woasmsshfl/222753583398>
+
 
 </div>
 </details>
