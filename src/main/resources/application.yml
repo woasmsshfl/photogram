@@ -57,6 +57,18 @@ spring:
       name: test
       password: 1234   
 
+# OAuth2 로그인 설정 ##############################################
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 491966152678919
+            client-secret: 7b93115127c20e2e439a12606ed79a1b
+            scope:
+            - public_profile
+            - email
+
+
 # 파일이 저장될 커스텀 경로 #################################################
 file:
   path: C:/workspace/springbootwork/upload/
