@@ -32,7 +32,7 @@ public class User {
     @Id // Primary Key를 지정해주는 어노테이션
     private Integer id; // 데이터가 들어갈 때 마다 번호를 매겨줄것임.
 
-    @Column(unique = true, length = 20, nullable = false)
+    @Column(unique = true, nullable = false)
     private String username; // 아이디
 
     @Column(nullable = false)
