@@ -48,8 +48,13 @@
                         <nav class="navi">
                             <ul class="navi-list">
                                 <li class="navi-item">
-                                    <a href="/">
+                                    <a href="/image/all">
                                         <i class="fas fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="navi-item">
+                                    <a href="/">
+                                        <i class="fas fa-images"></i>
                                     </a>
                                 </li>
                                 <li class="navi-item">

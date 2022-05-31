@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.cos.photogramstart.config.auth.PrincipalDetails;
 import com.cos.photogramstart.domain.image.Image;
+import com.cos.photogramstart.domain.image.ImageRepository;
 import com.cos.photogramstart.handler.ex.CustomValidationException;
 import com.cos.photogramstart.service.ImageService;
 import com.cos.photogramstart.web.dto.image.ImageUploadDto;
@@ -21,8 +22,8 @@ import lombok.RequiredArgsConstructor;
 public class ImageController {
 
     private final ImageService imageService;
-    
-    @GetMapping({"/", "/image/story"})
+
+    @GetMapping({"/", "/image/all"})
     public String story() {
         return "image/story";
     }

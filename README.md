@@ -417,7 +417,7 @@
 ***
 
 <details>
-<summary>14. AOP - 유효성 검사 자동화</summary>
+<summary>14. OAuth2 - 페이스북 로그인 기능</summary>
 <div markdown="15">
 
 ### 72. OAuth2 - 페이스북 로그인기능을 위한 앱 등록 및 yml 앱 설정하기
@@ -431,6 +431,20 @@
 ### 74. OAuth2 - 페이스북 로그인 구현하기
 
 - <https://blog.naver.com/woasmsshfl/222753683437>
+
+
+</div>
+</details>
+
+***
+
+<details>
+<summary>15. 마무리 - 마지막 테스트</summary>
+<div markdown="16">
+
+### 75. 마무리 - 기능 테스트 하기
+
+- <https://blog.naver.com/woasmsshfl/222753512460>
 
 
 </div>
