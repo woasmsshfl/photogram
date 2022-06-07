@@ -449,6 +449,25 @@
 
 </div>
 </details>
+  
+  ***
+
+<details>
+<summary>16. 추가기능</summary>
+<div markdown="17">
+
+### 76. OAuth2 - Google, Naver, Kakao 로그인 구현 완료
+
+- <https://blog.naver.com/woasmsshfl/222760952014>
+- <https://blog.naver.com/woasmsshfl/222760980197>
+- <https://blog.naver.com/woasmsshfl/222760987430>
+- <https://blog.naver.com/woasmsshfl/222761028050>
+- <https://blog.naver.com/woasmsshfl/222761067204>
+- <https://blog.naver.com/woasmsshfl/222762871181>
+
+
+</div>
+</details>
 
 ***
 
