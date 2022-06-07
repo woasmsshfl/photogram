@@ -38,14 +38,12 @@ public class User {
     @Column(nullable = false)
     private String password; // 비밀번호
 
-    @Column(nullable = false)
     private String name; // 별명
 
     private String website; // 개인 웹사이트 주소
 
     private String bio; // 자기소개
 
-    @Column(nullable = false)
     private String email; // 이메일
 
     private String phone; // 전화번호

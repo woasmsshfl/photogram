@@ -31,6 +31,24 @@ function storyLoad() {
 
 storyLoad();
 
+function storyLoad2() {
+    $.ajax({
+        url: `/api/image/all?page=${page}`,
+        dataType: "json"
+    }).done(res => {
+        console.log("성공", res)
+
+        res.data.forEach((image) => {
+            let storyItem = getStoryItem(image);
+            $("#storyList").append(storyItem);
+        });
+    }).fail(error => {
+        console.log("실패", error)
+    });
+}
+
+storyLoad2();
+
 function getStoryItem(image) {
     let item = `
 	<div class="story-list__item">

@@ -30,6 +30,15 @@ public class ImageApiController {
     private final ImageService imageService;
     private final LikesService likesService;
 
+    @GetMapping("/api/image/all")
+    public ResponseEntity<?> imageStoryAll(
+            @PageableDefault(size = 3, sort = "id", direction = Sort.Direction.DESC) Pageable pageable,
+            @AuthenticationPrincipal PrincipalDetails principalDetails) {
+        List<Image> images = imageService.모든이미지(principalDetails.getUser().getId(), pageable);
+        return new ResponseEntity<>(
+                new CMRespDto<>(1, "성공", images), HttpStatus.OK);
+    }
+
     @GetMapping("/api/image")
     public ResponseEntity<?> imageStory(
         @PageableDefault(size = 3, sort = "id", direction = Sort.Direction.DESC) Pageable pageable,
